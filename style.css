@@ -283,13 +283,13 @@ overflow: hidden;
 .Datetime{
     color: rgb(18, 18, 18);
     background: #afafd761;
-    height: 150px;
-    width: 348px;
+    height: 98px;
+    width: 360px;
     padding: 0px 0px;
     border: 2px solid rgb(34, 32, 32);
     border-radius: 30px;
     position: absolute;
-    right: 118px;
+    right: 114px;
     bottom: 120px;
     transition: 1s;
     transition-property : background , box-shadow ;
@@ -300,10 +300,10 @@ overflow: hidden;
     box-shadow: 0 0 30px rgb(235, 229, 235);
 }
 .date{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     letter-spacing: 1.4px;
-    padding: 0px;
+    padding: 5px;
 }
 .time{
     font-size: 40px;
