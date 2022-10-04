@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
     <title>CLOCK</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
-<body>
+<body onload="initClock()">
+    
+    
     <div class="clock">
         <div class="hand hour" data-hour-hand></div>
         <div class="hand minute" data-minute-hand></div>
@@ -26,9 +26,36 @@
         <div class="number number11">11</div>
         <div class="number number12">12</div>
 
+        <div class="text">
+            <h3>Something .Co <br> Since-2022 <br> CHRONOGRAPH</h3>
+        </div>
 
-
+        <!--digital clock start-->
+    <div class="digital" >
+        <div class="Datetime">
+            <div class="date">
+                
+                <span id="month">Month</span>
+                <span id="daynum">00</span>,
+                <span id="year">Year</span>
+                <span id="dayname">Day</span>
+            </div>
+            
+            <div class="time">
+                <span id="hour">00</span>:
+                <span id="minute">00</span>:
+                <span id="seconds">00</span>
+                <span id="period">AM</span>
+            </div>    
+        </div>    
+            
     </div>
+
+    
+            <!--digital clock start-->
+</div>
+    
+    
     
 </body>
 </html>
