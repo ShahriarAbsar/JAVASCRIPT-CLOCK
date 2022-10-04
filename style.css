@@ -172,7 +172,7 @@ overflow: hidden;
 
 
 
-@media only screen and (min-width:1000px){
+@media only screen and (min-width:1200px){
 
     body{
 background: linear-gradient(to right, rgb(185, 107, 107),rgb(23, 23, 207));
@@ -184,8 +184,8 @@ overflow: hidden;
 
 }
 .clock{
-    width:700px;
-    height:700px;
+    width:600px;
+    height:600px;
     
     background-color: rgba(255, 253, 253, 0.8);
     border-radius: 500px;
@@ -236,21 +236,21 @@ overflow: hidden;
     
     
     width: 25px;
-    height: 230px;
+    height: 200px;
     background-color: rgba(0, 0, 0, 0.882);
     border-radius: 30px;
 }
 .clock .hand.minute{
     
     width: 10px;
-    height: 300px;
+    height: 270px;
     background-color: rgb(32, 96, 19);
     border-radius: 30px;
 }
 .clock .hand.second{
     
     width: 5px;
-    height: 300px;
+    height: 250px;
     background-color: rgb(230, 6, 6);
     border-radius: 30px;
 }
@@ -283,14 +283,14 @@ overflow: hidden;
 .Datetime{
     color: rgb(18, 18, 18);
     background: #afafd761;
-    height: 153px;
-    width: 403px;
+    height: 150px;
+    width: 348px;
     padding: 0px 0px;
     border: 2px solid rgb(34, 32, 32);
     border-radius: 30px;
     position: absolute;
-    right: 134px;
-    bottom: 132px;
+    right: 118px;
+    bottom: 120px;
     transition: 1s;
     transition-property : background , box-shadow ;
     font-size: smaller
@@ -303,6 +303,7 @@ overflow: hidden;
     font-size: 40px;
     text-align: center;
     letter-spacing: 1.4px;
+    padding: 0px;
 }
 .time{
     font-size: 40px;
